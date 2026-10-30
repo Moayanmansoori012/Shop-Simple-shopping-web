@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    width: 100%;
+}
+.logo{
+        font-size: 22px;
+    font-weight: 700;
+    color: #111827;
+}
+.logo span{
+    color: blue;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    padding: 40px 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-section{
+    display: flex;
+    gap: 70px;   
+    text-transform: uppercase;
+}
+.second-section a{
+    text-decoration: none;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    height: 370px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.firstblock{
+    margin-top: 100px;
+    margin-left: 40px;
+    line-height: 1.5;
+}
+.firstblock p{
+    color: rgb(16, 94, 229);
+}
+.firstblock button{
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: rgb(104, 156, 245);
+    padding: 9px 25px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: right;
+}
+.second-block{
+    height: 300px;
+    width: 230px;
+    background-color: aqua;
+    display: flex;
+    margin-right: 80px;
+    background-image: url(cute-fashion-kids-standing-together-white-background-fashionable-friendship-concept-41220210.webp);
+    background-size: cover;
+}
+.third-section{
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    padding-top: 100px;
+    padding-left: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: url("img2.jpg");
+    background-size: cover;
+
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: url("bag.jpg");
+    background-size: cover;
+}
+.box3{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: url("imgpink.jpg");
+    background-size: cover;
+}
+.box4{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    background-image: url("imgshoes.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 300px;
+}
